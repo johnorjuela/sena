@@ -1,3 +1,4 @@
+drop database proyecto_sena;
 CREATE DATABASE proyecto_sena;
 USE proyecto_sena;
 CREATE TABLE usuarios (
@@ -28,3 +29,9 @@ CREATE TABLE afp (
     id_afp INT,
     razon_afp VARCHAR(100) NOT NULL
 ); 
+
+INSERT INTO usuarios (nombre, email, telefono)
+VALUES ('Juan Perez', 'juan.perez@example.com', 10101183145);
+
+INSERT INTO usuarios (nombre, email, telefono)
+VALUES ('Maria Gomez', 'maria.gomez@example.com', 1010183145);
