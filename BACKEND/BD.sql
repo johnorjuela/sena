@@ -20,3 +20,11 @@ CREATE TABLE bancos (
     id_banco INT,
     razon_banco VARCHAR(100) NOT NULL
 );
+CREATE TABLE cajas (
+    id_caja_compensacion INT,
+    razon_caja_compensacion VARCHAR(100) NOT NULL
+);
+CREATE TABLE afp (
+    id_afp INT,
+    razon_afp VARCHAR(100) NOT NULL
+); 
